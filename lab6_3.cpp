@@ -1,8 +1,19 @@
 #include<iostream>
+#include<string>
 using namespace std;
 
 char before(char x){
-	//Write your function definition here
+	char s ;
+	if(x>=65 && x<=90){
+		if(x==65){
+			return 90 ;
+		}
+		s=x-1;
+		return s;
+	}
+	else{
+		return 48;
+	}
 }
 
 int main(){
