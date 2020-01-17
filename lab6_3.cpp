@@ -18,8 +18,8 @@ char before(char x){
 
 int main(){
 	//Test Case
-	cout << before('A') << "\n";
-	cout << before('B') << "\n";
+	cout << before('Y') << "\n";
+	cout << before('b') << "\n";
 	cout << before('P') << "\n";
 	cout << before('T') << "\n";
 	cout << before('Z') << "\n";
